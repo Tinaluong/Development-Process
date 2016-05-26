@@ -1,0 +1,1514 @@
+
+Test Case 1  		<single>
+   Size :  Empty
+
+
+Test Case 2  		<error>
+   Flag -f is present along with -c :  Present
+
+
+Test Case 3  		<single>
+   Flag -f is present along with -c :  Not present
+
+
+Test Case 4  		<single>
+   Number of occurrences of delimiter in file :  None
+
+
+Test Case 5  		<single>
+   Presence of delimiter in one line :  Present
+
+
+Test Case 6  		<single>
+   Presence of the range specified of fields or lists contained in one line :  Present
+
+
+Test Case 7  		<single>
+   Presence of the range specified of fields or lists contained in one line :  Not present
+
+
+Test Case 8  		<single>
+   Presence of the range specified of fields or lists contained in file :  Present
+
+
+Test Case 9  		<single>
+   Presence of the range specified of fields or lists contained in file :  Not present
+
+
+Test Case 10 		<single>
+   Flag for delimiter character specified with d in file :  Not present
+
+
+Test Case 11 		<error>
+   Flag for delimiter character specified with d in file :  Incorrect
+
+
+Test Case 12 		<error>
+   Number of delimiters specified with -d :  More than one
+
+
+Test Case 13 		<error>
+   Number of delimiters specified with -d :  Incorrect
+
+
+Test Case 14 		<single>
+   Character delimiter contains special characters :  Escaped special characters
+
+
+Test Case 15 		<error>
+   Character delimiter contains special characters :  Not escaped special characters
+
+
+Test Case 16 		<single>
+   Flag for fields is represented as single character f :  Not present
+
+
+Test Case 17 		<error>
+   Flag for fields is represented as single character f :  Incorrect
+
+
+Test Case 18 		<single>
+   Flag for field is either alone or with paired with one -d flag :  Paired
+
+
+Test Case 19 		<error>
+   Flag for field is either alone or with paired with one -d flag :  More than one flag for field
+
+
+Test Case 20 		<error>
+   Number of ranges specified :  Empty
+
+
+Test Case 21 		<error>
+   Presence of comma :  Incorrectly placed
+
+
+Test Case 22 		<error>
+   Presence of hyphen :  Incorrectly placed
+
+
+Test Case 23 		<error>
+   Value for range or index input :  <=0
+
+
+Test Case 24 		<single>
+   Value for range or index input :  >0
+
+
+Test Case 25 		<single>
+   Value for range or index input :  Maxint
+
+
+Test Case 26 		<error>
+   Value for range or index input :  None
+
+
+Test Case 27 		<single>
+   Overlapping ranges :  Not present
+
+
+Test Case 28 		<single>
+   Overlapping ranges :  Present
+
+
+Test Case 29 		<single>
+   Order of values in ranges :  Ascending
+
+
+Test Case 30 		<single>
+   Flag for list is represented as single character c :  Not present
+
+
+Test Case 31 		<error>
+   Flag for list is represented as single character c :  Incorrect
+
+
+Test Case 32 		<error>
+   Number of ranges specified :  Empty
+
+
+Test Case 33 		<error>
+   Presence of comma :  Incorrectly placed
+
+
+Test Case 34 		<error>
+   Presence of hyphen :  Incorrectly placed
+
+
+Test Case 35 		<error>
+   Value for range or index input :  <=0
+
+
+Test Case 36 		<single>
+   Value for range or index input :  >0
+
+
+Test Case 37 		<single>
+   Value for range or index input :  Maxint
+
+
+Test Case 38 		<error>
+   Value for range or index input :  None
+
+
+Test Case 39 		<single>
+   Overlapping ranges :  Not present
+
+
+Test Case 40 		<single>
+   Overlapping ranges :  Present
+
+
+Test Case 41 		<single>
+   Order of values in ranges :  Ascending
+
+
+Test Case 42 		(Key = 2.0.2.2.0.0.2.1.0.2.1.2.1.1.0.0.2.2.2.1.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 43 		(Key = 2.0.2.2.0.0.2.1.0.2.1.2.1.1.0.0.2.2.2.1.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 44 		(Key = 2.0.2.2.0.0.2.1.0.2.1.2.1.1.0.0.2.2.3.2.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 45 		(Key = 2.0.2.2.0.0.2.1.0.2.1.2.1.1.0.0.2.2.3.2.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 46 		(Key = 2.0.2.2.0.0.2.1.0.2.1.2.1.1.0.0.2.2.3.2.3.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 47 		(Key = 2.0.2.2.0.0.2.1.0.2.1.2.1.2.0.0.2.2.2.1.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 48 		(Key = 2.0.2.2.0.0.2.1.0.2.1.2.1.2.0.0.2.2.2.1.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 49 		(Key = 2.0.2.2.0.0.2.1.0.2.1.2.1.2.0.0.2.2.3.2.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 50 		(Key = 2.0.2.2.0.0.2.1.0.2.1.2.1.2.0.0.2.2.3.2.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 51 		(Key = 2.0.2.2.0.0.2.1.0.2.1.2.1.2.0.0.2.2.3.2.3.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 52 		(Key = 2.0.2.2.0.0.2.1.0.2.1.3.2.1.0.0.2.2.2.1.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 53 		(Key = 2.0.2.2.0.0.2.1.0.2.1.3.2.1.0.0.2.2.2.1.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 54 		(Key = 2.0.2.2.0.0.2.1.0.2.1.3.2.1.0.0.2.2.3.2.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 55 		(Key = 2.0.2.2.0.0.2.1.0.2.1.3.2.1.0.0.2.2.3.2.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 56 		(Key = 2.0.2.2.0.0.2.1.0.2.1.3.2.1.0.0.2.2.3.2.3.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 57 		(Key = 2.0.2.2.0.0.2.1.0.2.1.3.2.2.0.0.2.2.2.1.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 58 		(Key = 2.0.2.2.0.0.2.1.0.2.1.3.2.2.0.0.2.2.2.1.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 59 		(Key = 2.0.2.2.0.0.2.1.0.2.1.3.2.2.0.0.2.2.3.2.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 60 		(Key = 2.0.2.2.0.0.2.1.0.2.1.3.2.2.0.0.2.2.3.2.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 61 		(Key = 2.0.2.2.0.0.2.1.0.2.1.3.2.2.0.0.2.2.3.2.3.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 62 		(Key = 2.0.2.2.0.0.2.1.0.2.1.3.2.3.0.0.2.2.2.1.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 63 		(Key = 2.0.2.2.0.0.2.1.0.2.1.3.2.3.0.0.2.2.2.1.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 64 		(Key = 2.0.2.2.0.0.2.1.0.2.1.3.2.3.0.0.2.2.3.2.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 65 		(Key = 2.0.2.2.0.0.2.1.0.2.1.3.2.3.0.0.2.2.3.2.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 66 		(Key = 2.0.2.2.0.0.2.1.0.2.1.3.2.3.0.0.2.2.3.2.3.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  One
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 67 		(Key = 2.0.3.2.0.0.2.1.0.2.1.2.1.1.0.0.2.2.2.1.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 68 		(Key = 2.0.3.2.0.0.2.1.0.2.1.2.1.1.0.0.2.2.2.1.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 69 		(Key = 2.0.3.2.0.0.2.1.0.2.1.2.1.1.0.0.2.2.3.2.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 70 		(Key = 2.0.3.2.0.0.2.1.0.2.1.2.1.1.0.0.2.2.3.2.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 71 		(Key = 2.0.3.2.0.0.2.1.0.2.1.2.1.1.0.0.2.2.3.2.3.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 72 		(Key = 2.0.3.2.0.0.2.1.0.2.1.2.1.2.0.0.2.2.2.1.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 73 		(Key = 2.0.3.2.0.0.2.1.0.2.1.2.1.2.0.0.2.2.2.1.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 74 		(Key = 2.0.3.2.0.0.2.1.0.2.1.2.1.2.0.0.2.2.3.2.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 75 		(Key = 2.0.3.2.0.0.2.1.0.2.1.2.1.2.0.0.2.2.3.2.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 76 		(Key = 2.0.3.2.0.0.2.1.0.2.1.2.1.2.0.0.2.2.3.2.3.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 77 		(Key = 2.0.3.2.0.0.2.1.0.2.1.3.2.1.0.0.2.2.2.1.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 78 		(Key = 2.0.3.2.0.0.2.1.0.2.1.3.2.1.0.0.2.2.2.1.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 79 		(Key = 2.0.3.2.0.0.2.1.0.2.1.3.2.1.0.0.2.2.3.2.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 80 		(Key = 2.0.3.2.0.0.2.1.0.2.1.3.2.1.0.0.2.2.3.2.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 81 		(Key = 2.0.3.2.0.0.2.1.0.2.1.3.2.1.0.0.2.2.3.2.3.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 82 		(Key = 2.0.3.2.0.0.2.1.0.2.1.3.2.2.0.0.2.2.2.1.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 83 		(Key = 2.0.3.2.0.0.2.1.0.2.1.3.2.2.0.0.2.2.2.1.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 84 		(Key = 2.0.3.2.0.0.2.1.0.2.1.3.2.2.0.0.2.2.3.2.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 85 		(Key = 2.0.3.2.0.0.2.1.0.2.1.3.2.2.0.0.2.2.3.2.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 86 		(Key = 2.0.3.2.0.0.2.1.0.2.1.3.2.2.0.0.2.2.3.2.3.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 87 		(Key = 2.0.3.2.0.0.2.1.0.2.1.3.2.3.0.0.2.2.2.1.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 88 		(Key = 2.0.3.2.0.0.2.1.0.2.1.3.2.3.0.0.2.2.2.1.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  One
+   Presence of comma                                                        :  Not present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 89 		(Key = 2.0.3.2.0.0.2.1.0.2.1.3.2.3.0.0.2.2.3.2.1.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  None
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 90 		(Key = 2.0.3.2.0.0.2.1.0.2.1.3.2.3.0.0.2.2.3.2.2.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  One
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+
+
+Test Case 91 		(Key = 2.0.3.2.0.0.2.1.0.2.1.3.2.3.0.0.2.2.3.2.3.0.0.2.)
+   Size                                                                     :  Not empty
+   Flag -f is present along with -c                                         :  <n/a>
+   Number of occurrences of delimiter in file                               :  Many
+   Presence of delimiter in one line                                        :  Not present
+   Presence of the range specified of fields or lists contained in one line :  <n/a>
+   Presence of the range specified of fields or lists contained in file     :  <n/a>
+   Flag for delimiter character specified with d in file                    :  Present
+   Number of delimiters specified with -d                                   :  One
+   Character delimiter contains special characters                          :  <n/a>
+   Flag for fields is represented as single character f                     :  Present
+   Flag for field is either alone or with paired with one -d flag           :  Alone
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+   Flag for list is represented as single character c                       :  Present
+   Number of ranges specified                                               :  More than one
+   Presence of comma                                                        :  Present
+   Presence of hyphen                                                       :  Many
+   Value for range or index input                                           :  <n/a>
+   Overlapping ranges                                                       :  <n/a>
+   Order of values in ranges                                                :  Descending
+

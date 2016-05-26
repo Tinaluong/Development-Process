@@ -1,0 +1,126 @@
+# File Name
+  Size:
+      Empty.			[single][property emptyfile]
+      Not empty.
+
+# File
+  Size:
+      Empty.			[single][property emptyfile]
+      Not empty.
+   	
+  Flag -f is present along with -c:
+      Present.			[error]
+      Not present.		[single][if !emptyfile]
+	
+  Number of occurrences of delimiter in file:
+      None. 			[single][if !emptyfile]
+      One.				 [if !emptyfile]
+      Many.				[if !emptyfile]
+   
+   Presence of delimiter in one line:
+      Present.			[single][if !emptyfile]
+      Not present.			[if !emptyfile]
+	
+   Presence of the range specified of fields or lists contained in one line:
+      Present.			[single][if !emptyfile]
+      Not present. 		[single][if !emptyfile]
+	
+   Presence of the range specified of fields or lists contained in file:
+      Present. 			[single][if !emptyfile]
+      Not present. 		[single][if !emptyfile]
+
+# Delimiter
+  Flag for delimiter character specified with d in file:
+      Not present.   		[single][property defaulttabdelimiter]
+      Present. 			[property delimiterpresent]
+      Incorrect. 		[error]
+
+   Number of delimiters specified with -d:
+      None 			[error]	
+      One. 				[if !defaulttabdelimiter]
+      More than one.		[error] 
+      Incorrect.		[error]
+
+   Character delimiter contains special characters:
+      Escaped special characters. 		[single][if !defaulttabdelimiter]
+      Not escaped special characters. 	[error]
+		
+	
+# Fields
+   Flag for fields is represented as single character f: 
+	Not present.		[single] 
+	Present. 		 [property field]
+	Incorrect. 	[error]
+   	
+   Flag for field is either alone or with paired with one -d flag:
+	Alone.			
+	Paired. 		[single]
+	More than one flag for field. 		[error] 
+		
+   Number of ranges specified:
+	Empty.		[error]
+	One.			[if field][property 1rangeinfield] 
+	More than one. 		[if field][property morethan1rangefield]
+	
+   Presence of comma:
+	Not present. 			[if 1rangeinfield && field]
+	Present. 			[if morethan1rangefield && field]
+	Incorrectly placed.	[error]
+	
+   Presence of hyphen:
+	None.	 		
+	One.	 			[if 1rangeinfield || morethan1rangefield && field]
+	Many. 				[if morethan1rangefield && field]
+	Incorrectly placed. 	[error]
+	
+   Value for range or index input:
+	<=0.			[error]
+	>0.   			[single][if field]
+	Maxint. 		[single][if field]
+	None. 			[error]
+	
+   Overlapping ranges:
+	Not present. 			[single][if 1rangeinfield]
+	Present.			[single][if morethan1rangefield]
+
+   Order of values in ranges:
+       Ascending.			[single][if field]
+       Descending.			[if field]
+
+# List
+   Flag for list is represented as single character c: 
+	Not present.		[single]
+	Present. 			[property list]
+	Incorrect. 		[error]
+	
+   Number of ranges specified:
+	Empty.			[error]
+	One.				[if list][property 1rangeinlist] 
+	More than one. 			[if list][property morethan1rangelist]
+	
+   Presence of comma:
+	Not present.			 [if 1rangeinlist && list]
+	Present. 			 [if morethan1rangelist && list]
+	Incorrectly placed. 	[error]
+	
+   Presence of hyphen:
+	None.			 
+	One.	 			[if 1rangeinlist || morethan1rangelist && list]
+	Many. 				[if morethan1rangelist && list]
+	Incorrectly placed. 	[error]
+	
+   Value for range or index input:
+	<=0.			[error]
+	>0.   			[single][if list]
+	Maxint. 		[single][if list]
+	None. 			[error]
+	
+   Overlapping ranges:
+	Not present. 			[single][if 1rangeinlist]
+	Present.			[single][if morethan1rangelist]
+
+   Order of values in ranges:
+	Ascending.			[single][if list]
+	Descending.			[if list]
+	
+		
